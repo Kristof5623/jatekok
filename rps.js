@@ -36,7 +36,7 @@ function playthis(playerChoice){
     let result = "";
 
     if (playerChoice === computerChoice){
-        result = "Döntetlen!";
+        result = "Döntettlen!";
     } else {
         switch (playerChoice){
             case "rock":
@@ -60,15 +60,15 @@ function playthis(playerChoice){
 
     // result classes for color
     resultDisp.classList.remove("win","lose","tie");
-    if (result === "Nyertél!") resultDisp.classList.add("win");
-    else if (result === "Vesztettál!") resultDisp.classList.add("lose");
-    else resultDisp.classList.add("Döntetlen");
+    if (result === "You win!") resultDisp.classList.add("win");
+    else if (result === "You lose!") resultDisp.classList.add("lose");
+    else resultDisp.classList.add("tie");
 
-    if (result === "Nyertél!"){
+    if (result === "You win!"){
         playerScore++;
-    } else if (result === "Vesztettél!"){
+    } else if (result === "You lose!"){
         computerScore++;
-    } else if (result === "Döntettlen!"){
+    } else if (result === "tie!"){
         tie++;
     }
 
