@@ -36,17 +36,17 @@ function playthis(playerChoice){
     let result = "";
 
     if (playerChoice === computerChoice){
-        result = "Döntettlen!";
+        result = "It's a tie!";
     } else {
         switch (playerChoice){
             case "rock":
-                result = (computerChoice === "sisors") ? "Nyertél!" : "Vesztettél!";
+                result = (computerChoice === "sisors") ? "You win!" : "You lose!";
                 break;
             case "paper":
-                result = (computerChoice === "rock") ? "Nyertél!" : "Vesztettél!";
+                result = (computerChoice === "rock") ? "You win!" : "You lose!";
                 break;
             case "sisors":
-                result = (computerChoice === "paper") ? "Nyertél!" : "Vesztettél!";
+                result = (computerChoice === "paper") ? "You win!" : "You lose!";
                 break;
             default:
                 result = "Invalid";
