@@ -9,7 +9,7 @@ const win = document.getElementById("win");
 const lose = document.getElementById("lose");
 const tieDisp = document.getElementById("tie");
 const resetBtn = document.getElementById("resetGame");
-const targetURL = "../nyiltnapdisplay/nydisplay.html"; 
+const targetURL = "index.html"; 
 
 function navigateTo(url){
   if (!url) return;
@@ -109,3 +109,4 @@ resetBtn.addEventListener("click", resetGame);
 // initialise UI
 
 resetGame();
+
