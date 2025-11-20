@@ -68,7 +68,7 @@ function playthis(playerChoice){
         playerScore++;
     } else if (result === "You lose!"){
         computerScore++;
-    } else if (result === "tie!"){
+    } else if (result === "It's a tie!"){
         tie++;
     }
 
