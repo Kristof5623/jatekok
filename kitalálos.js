@@ -29,7 +29,7 @@ const previousGuesses = document.getElementById("previousGuesses");
 const nextBtn = document.getElementById("nextBtn");
 const finishBtn = document.getElementById("finishBtn");
 const users = [username1, username2]
-const targetURL = "index.html"; 
+const targetURL = "https://kristof5623.github.io/jatekok"; 
 
 function navigateTo(url){
   if (!url) return;
@@ -178,5 +178,6 @@ nextBtn.addEventListener("click" , function(){
 finishBtn.addEventListener("click" , function(){
     location.reload();
 })
+
 
 
