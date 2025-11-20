@@ -5,7 +5,7 @@ const guessingBtn = document.getElementById("kitalalosBtn");
 const rpsBtn = document.getElementById("rpsBtn");
 
 guessingBtn.addEventListener("click", function(){
-    "kiatlálos.html";
+    window.location.href = "kiatlálos.html";
 })
 
 rpsBtn.addEventListener("click", function(){
