@@ -29,7 +29,7 @@ const previousGuesses = document.getElementById("previousGuesses");
 const nextBtn = document.getElementById("nextBtn");
 const finishBtn = document.getElementById("finishBtn");
 const users = [username1, username2]
-const targetURL = "../nyiltnapdisplay/nydisplay.html"; 
+const targetURL = "index.html"; 
 
 function navigateTo(url){
   if (!url) return;
@@ -178,4 +178,5 @@ nextBtn.addEventListener("click" , function(){
 finishBtn.addEventListener("click" , function(){
     location.reload();
 })
+
 
