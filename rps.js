@@ -68,7 +68,7 @@ function playthis(playerChoice){
         playerScore++;
     } else if (result === "You lose!"){
         computerScore++;
-    } else if (result === "It's a tie!"){
+    } else if (result === "tie!"){
         tie++;
     }
 
@@ -107,4 +107,5 @@ choices.forEach(btn => {
 resetBtn.addEventListener("click", resetGame);
 
 // initialise UI
+
 resetGame();
